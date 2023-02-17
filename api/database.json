@@ -1,0 +1,62 @@
+{
+    "politicians": [
+    { "id": 1, "age": 24, "firstName": "Darrion", "lastName": "Bechtelar", "phone": "654-882-9490", "district": "Gottliebland, Nebraska", "platform": "Eat the rich!" },
+    { "id": 2,  "age": 28,  "firstName": "Emilia",  "lastName": "Wunsch",  "phone": "864-234-1294",  "district": "Fort Eugenia, Illinois",  "platform": "Defund the police!" },
+    { "id": 3, "age": 45, "firstName": "Mina", "lastName": "Goodwin", "phone": "420-694-2788", "district": "New Bransonboro, New Mexico", "platform": "Tax Musk!" },
+    { "id": 4, "age": 81, "firstName": "Ignacio", "lastName": "Dicki", "phone": "360-397-9019", "district": "Veumworth, New Hampshire", "platform": "Free healthcare!" },
+    { "id": 5, "age": 34, "firstName": "Salma", "lastName": "MacGyver", "phone": "990-939-1888", "district": "Ernserland, Ohio", "platform": "Bodily autonomy for all!"}
+],
+"corporations": [
+    { "id": 1, "name": "Lowe - Koss and Sons", "address": "5758 Delores Corner, Harveychester, Massachusetts 87026" },
+    { "id": 2, "name": "Emard - Hirthe LLC", "address": "988 Flatley Terrace, West Dorothy, Mississippi 12098" },
+    { "id": 3, "name": "Kiehn - Bergstrom Inc", "address": "980 Langworth Port, New Charitymouth, Utah 13926" },
+    { "id": 4, "name": "Rath, West and Treutel LLC", "address": "943 Margarita Junctions, Collinsborough, Ohio 35286" },
+    { "id": 5, "name": "Effertz, Bailey and Breitenberg Inc", "address": "655 Schultz Mills, Lake Averyfield, North Carolina 35187" }
+],
+"donationsToPACs": [
+    { "id": 1, "corporationId": 5, "PACId": 2, "date": "02/11/2022", "amount": 65000 },
+    { "id": 2, "corporationId": 4, "PACId": 3, "date": "03/01/2020", "amount": 100000 },
+    { "id": 3, "corporationId": 3, "PACId": 4, "date": "05/31/2021", "amount": 500000 },
+    { "id": 4, "corporationId": 2, "PACId": 5, "date": "10/20/2021", "amount": 25000 },
+    { "id": 5, "corporationId": 1, "PACId": 1, "date": "01/01/2023", "amount": 105000 },
+    { "id": 6, "corporationId": 5, "PACId": 1, "date": "12/25/2019", "amount": 1000000 },
+    { "id": 7, "corporationId": 4, "PACId": 4, "date": "07/07/2021", "amount": 80000 },
+    { "id": 8, "corporationId": 3, "PACId": 3, "date": "08/22/2020", "amount": 5000000 },
+    { "id": 9, "corporationId": 2, "PACId": 2, "date": "06/15/2022", "amount": 300000 },
+    { "id": 10, "corporationId": 1, "PACId": 5, "date": "11/24/2021", "amount": 15000 }
+],
+"PACs": [
+    { "id": 1, "name": "Face2Face", "address": "217 Nikolaus Port, North Neomamouth, Hawaii 01497" },
+    { "id": 2, "name": "Public Key", "address": "3321 Lorenza Trafficway, Pine Bluff, Alaska 80393" },
+    { "id": 3, "name": "VIRTUAL", "address": "1254 Crooks Knoll, Lake Suzanneburgh, Massachusetts 29766" },
+    { "id": 4, "name": "Mandatory", "address": "53009 Dach Court, Townechester, Oregon 14296" },
+    { "id": 5, "name": "FullyConfigurable", "address": "32694 Kozey Mountain, South Devenstad, Georgia 02243" }
+],
+"donationsToPoliticians": [
+    { "id": 1, "politicianId": 5, "PACId": 1 },
+    { "id": 2, "politicianId": 5, "PACId": 2 },
+    { "id": 3, "politicianId": 4, "PACId": 3 },
+    { "id": 4, "politicianId": 4, "PACId": 4 },
+    { "id": 5, "politicianId": 3, "PACId": 5 },
+    { "id": 6, "politicianId": 3, "PACId": 1 },
+    { "id": 7, "politicianId": 2, "PACId": 2 },
+    { "id": 8, "politicianId": 2, "PACId": 3 },
+    { "id": 9, "politicianId": 1, "PACId": 4 },
+    { "id": 10, "politicianId": 1, "PACId": 5 }
+],
+"bills": [
+    { "id": 1, "politicianId": 2, "interestId": 4, "name": "Airline Passengers' Bill of Rights" },
+    { "id": 2, "politicianId": 3, "interestId": 5, "name": "American Sovereignty Act" },
+    { "id": 3, "politicianId": 4, "interestId": 1, "name": "Bipartisan Social Security Commission Act of 2023" },
+    { "id": 4, "politicianId": 5, "interestId": 2, "name": "Cap Insulin Prices Act" },
+    { "id": 5, "politicianId": 1, "interestId": 3, "name": "Federal Land Freedom Act of 2023" }
+],
+"interests": [
+    { "id": 1, "billId": 3, "name": "Lands" },
+    { "id": 2, "billId": 4, "name": "Pharmaceuticals" },
+    { "id": 3, "billId": 5, "name": "Seniors" },
+    { "id": 4, "billId": 1, "name": "Foreign Affairs" },
+    { "id": 5, "billId": 2, "name": "Transportation" }
+]
+
+}
